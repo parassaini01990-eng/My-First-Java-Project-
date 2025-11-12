@@ -38,11 +38,11 @@ public class MainApp {
 			break;
 			
 		case 3:
-			pservice.sortByName();
+			pservice.sortByPriceAsc();
 			break;
 			
 		case 4:
-			pservice.sortByPriceAsc();
+			pservice.sortByName();
 			break;
 			
 		case 5:
@@ -92,5 +92,6 @@ public class MainApp {
 			sc.close();
 	}	
 	}
+
 
 
